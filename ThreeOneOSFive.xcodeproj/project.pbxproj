@@ -1,0 +1,783 @@
+// !UTF8*0
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00000000A000000000000001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000060; };
+		00000000A000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000061; };
+		00000000A000000000000003 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000062; };
+		00000000A000000000000004 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000063; };
+		00000000A000000000000005 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000064; };
+		00000000A000000000000006 /* SBX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000065; };
+		00000000A000000000000007 /* MG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000066; };
+		00000000A000000000000008 /* bad_query.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000067; };
+		00000000A000000000000009 /* mcm_bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000068; };
+		00000000A00000000000000A /* kexploit_opa334.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000006E; };
+		00000000A00000000000000B /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000006F; };
+		00000000A00000000000000C /* krw.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000070; };
+		00000000A00000000000000D /* kutils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000071; };
+		00000000A00000000000000E /* vnode.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000072; };
+		00000000A00000000000000F /* sandbox_escape.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000073; };
+		00000000A000000000000010 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000007C; };
+		00000000A000000000000011 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000007D; };
+		00000000A000000000000012 /* AppIconHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000080; };
+		00000000A000000000000013 /* KernelExploit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000082; };
+		00000000A000000000000014 /* AntiDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000083; };
+		00000000A000000000000015 /* DisplayIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000085; };
+		00000000A000000000000016 /* DisplayIdentityAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000086; };
+		00000000A000000000000017 /* ContainerIdentityResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000087; };
+		00000000A000000000000018 /* ContainerBrowserLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000088; };
+		00000000A000000000000019 /* FileReplacementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000089; };
+		00000000A00000000000001A /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000008A; };
+		00000000A00000000000001B /* FileBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000008B; };
+		00000000A00000000000001C /* SupportPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000008C; };
+		00000000A00000000000001D /* PatchProjectModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000008F; };
+		00000000A00000000000001E /* PatchPackageCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000090; };
+		00000000A00000000000001F /* PatchKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000091; };
+		00000000A000000000000020 /* PatchTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000092; };
+		00000000A000000000000021 /* DevicePatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000093; };
+		00000000A000000000000022 /* PatchProjectLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000094; };
+		00000000A000000000000023 /* PatchProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000095; };
+		00000000A000000000000024 /* PatchProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000096; };
+		00000000A000000000000025 /* PatchProjectEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000097; };
+		00000000A000000000000026 /* PatchDraftService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000098; };
+		00000000A000000000000027 /* PatchDraftCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000099; };
+		00000000A000000000000028 /* FolderPatchSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000009A; };
+		00000000A000000000000029 /* LimitedCleanerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000009B; };
+		00000000A00000000000002A /* CleanerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000009C; };
+		00000000A00000000000002B /* CleanerCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000009D; };
+		00000000A00000000000002C /* wallpaper_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000009E; };
+		00000000A00000000000002D /* WallpaperLabModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000A0; };
+		00000000A00000000000002E /* SecureZIPArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000A1; };
+		00000000A00000000000002F /* WallpaperInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000A2; };
+		00000000A000000000000030 /* WallpaperLabService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000A3; };
+		00000000A000000000000031 /* WallpaperLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000A4; };
+		00000000A000000000000032 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000A5; };
+		00000000A000000000000033 /* ZIPArchiveWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000A6; };
+		00000000A000000000000034 /* FileOperationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000A7; };
+		00000000A000000000000035 /* ZIPArchiveExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000A8; };
+		00000000A000000000000036 /* PatchWorkspaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000A9; };
+		00000000A000000000000037 /* AppTabNavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000AA; };
+		00000000A000000000000038 /* FilesTabControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000AB; };
+		00000000A000000000000039 /* FilesTabSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000AC; };
+		00000000A00000000000003A /* ContainerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000007E; };
+		00000000A00000000000003B /* AppDataBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000007F; };
+		00000000A00000000000003C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000DB; };
+		00000000A00000000000003D /* LicenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000008D; };
+		00000000A00000000000003E /* LicenseActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A00000000000008E; };
+		00000000A00000000000003F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A000000000000069; };
+		00000000A000000000000040 /* xTop1 External File (6).3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000B1; };
+	00000000A000000000000041 /* xTop1 External File (7).3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000B2; };
+		00000000A000000000000042 /* xTop1 External File (9).3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000B3; };
+		00000000A000000000000043 /* xTop1 External File (10).3105 */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000B4; };
+		00000000A000000000000044 /* xTop1 External File (1).3105 */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000B5; };
+					00000000A000000000000045 /* xTop1 External File (3).3105 */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000B6; };
+			00000000A000000000000046 /* xTop1 External File (5).3105 */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000B7; };
+			00000000A000000000000047 /* xTop1 External File (12).3105 */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000B8; };
+			00000000A000000000000048 /* xTop1 External File (8).3105 */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000B9; };
+			00000000A000000000000049 /* xTop1 External File (11).3105 */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000BA; };
+			00000000A00000000000004A /* xTop1 External File (4).3105 */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000BB; };
+			00000000A00000000000004B /* xTop1 External File (2).3105 */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000BC; };
+
+		00000000A00000000000004C /* xTop1 External File (13).3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000BD; };
+
+			00000000A00000000000004D /* xTop1 External File (14).3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000BE; };
+			00000000A00000000000004E /* FFTH.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000BF; };
+				00000000A00000000000004F /* ATHBODY.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000C0; };
+				00000000A000000000000050 /* ATHDRAG.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000C1; };
+				00000000A000000000000051 /* ATHMAGIC.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000C2; };
+			00000000A000000000000052 /* ATHBODYM.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000C3; };
+			00000000A000000000000053 /* ATHDRAGM.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000C4; };
+			00000000A000000000000054 /* ATHMAGICM.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000C5; };
+			00000000A000000000000055 /* ATHBODYFFTH.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000C6; };
+			00000000A000000000000056 /* ATHHEADFFTH.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000C7; };
+			00000000A000000000000057 /* ATHANTENA-DRAG.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000C8; };
+			00000000A000000000000058 /* BODYFFM.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000C9; };
+			00000000A000000000000059 /* DRAGFFM.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000CA; };
+			00000000A00000000000005A /* DRAGANTENAFFM.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000CB; };
+			00000000A00000000000005B /* BODYFF.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000CC; };
+			00000000A00000000000005C /* DRAGFF.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000CD; };
+			00000000A00000000000005D /* DRAGANTENAFF.3105 in Resources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000CE; };
+
+			00000000A00000000000005E /* APONLicenseSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000CF; };
+
+		00000000A0000000000000F7 /* worse_query.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000F1; };
+		00000000A0000000000000F8 /* FFWorseQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 00000000A0000000000000F3; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00000000A00000000000005F /* 3105.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3105.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00000000A000000000000060 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		00000000A000000000000061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00000000A000000000000062 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		00000000A000000000000063 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		00000000A000000000000064 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		00000000A000000000000065 /* SBX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBX.swift; sourceTree = "<group>"; };
+		00000000A000000000000066 /* MG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MG.swift; sourceTree = "<group>"; };
+		00000000A000000000000067 /* bad_query.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bad_query.c; sourceTree = "<group>"; };
+		00000000A000000000000068 /* mcm_bridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mcm_bridge.m; sourceTree = "<group>"; };
+		00000000A000000000000069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00000000A00000000000006A /* bad_query.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bad_query.h; sourceTree = "<group>"; };
+		00000000A00000000000006B /* mcm_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mcm_bridge.h; sourceTree = "<group>"; };
+		00000000A00000000000006C /* ThreeOneOSFive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeOneOSFive-Bridging-Header.h"; sourceTree = "<group>"; };
+		00000000A00000000000006D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00000000A00000000000006E /* kexploit_opa334.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kexploit_opa334.m; sourceTree = "<group>"; };
+		00000000A00000000000006F /* offsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = offsets.m; sourceTree = "<group>"; };
+		00000000A000000000000070 /* krw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krw.m; sourceTree = "<group>"; };
+		00000000A000000000000071 /* kutils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kutils.m; sourceTree = "<group>"; };
+		00000000A000000000000072 /* vnode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vnode.m; sourceTree = "<group>"; };
+		00000000A000000000000073 /* sandbox_escape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sandbox_escape.m; sourceTree = "<group>"; };
+		00000000A000000000000074 /* kexploit_opa334.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kexploit_opa334.h; sourceTree = "<group>"; };
+		00000000A000000000000075 /* offsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
+		00000000A000000000000076 /* krw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krw.h; sourceTree = "<group>"; };
+		00000000A000000000000077 /* kutils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kutils.h; sourceTree = "<group>"; };
+		00000000A000000000000078 /* vnode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnode.h; sourceTree = "<group>"; };
+		00000000A000000000000079 /* sandbox_escape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sandbox_escape.h; sourceTree = "<group>"; };
+		00000000A00000000000007A /* machine_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = machine_info.h; sourceTree = "<group>"; };
+		00000000A00000000000007B /* xpaci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xpaci.h; sourceTree = "<group>"; };
+		00000000A00000000000007C /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		00000000A00000000000007D /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		00000000A00000000000007E /* ContainerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerStore.swift; sourceTree = "<group>"; };
+		00000000A00000000000007F /* AppDataBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataBrowserView.swift; sourceTree = "<group>"; };
+		00000000A000000000000080 /* AppIconHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppIconHelper.m; sourceTree = "<group>"; };
+		00000000A000000000000081 /* AppIconHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppIconHelper.h; sourceTree = "<group>"; };
+		00000000A000000000000082 /* KernelExploit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KernelExploit.swift; sourceTree = "<group>"; };
+		00000000A000000000000083 /* AntiDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiDetection.m; sourceTree = "<group>"; };
+		00000000A000000000000084 /* DisplayIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayIdentity.h; sourceTree = "<group>"; };
+		00000000A000000000000085 /* DisplayIdentity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayIdentity.m; sourceTree = "<group>"; };
+		00000000A000000000000086 /* DisplayIdentityAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayIdentityAttribution.swift; sourceTree = "<group>"; };
+		00000000A000000000000087 /* ContainerIdentityResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerIdentityResolver.swift; sourceTree = "<group>"; };
+		00000000A000000000000088 /* ContainerBrowserLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerBrowserLogic.swift; sourceTree = "<group>"; };
+		00000000A000000000000089 /* FileReplacementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReplacementService.swift; sourceTree = "<group>"; };
+		00000000A00000000000008A /* FileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
+		00000000A00000000000008B /* FileBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserView.swift; sourceTree = "<group>"; };
+		00000000A00000000000008C /* SupportPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPolicy.swift; sourceTree = "<group>"; };
+		00000000A00000000000008D /* LicenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseManager.swift; sourceTree = "<group>"; };
+		00000000A00000000000008E /* LicenseActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseActivationView.swift; sourceTree = "<group>"; };
+		00000000A00000000000008F /* PatchProjectModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectModels.swift; sourceTree = "<group>"; };
+		00000000A000000000000090 /* PatchPackageCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchPackageCodec.swift; sourceTree = "<group>"; };
+		00000000A000000000000091 /* PatchKeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchKeyStore.swift; sourceTree = "<group>"; };
+		00000000A000000000000092 /* PatchTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchTransaction.swift; sourceTree = "<group>"; };
+		00000000A000000000000093 /* DevicePatchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicePatchService.swift; sourceTree = "<group>"; };
+		00000000A000000000000094 /* PatchProjectLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectLibrary.swift; sourceTree = "<group>"; };
+		00000000A000000000000095 /* PatchProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectStore.swift; sourceTree = "<group>"; };
+		00000000A000000000000096 /* PatchProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectsView.swift; sourceTree = "<group>"; };
+		00000000A000000000000097 /* PatchProjectEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchProjectEditorView.swift; sourceTree = "<group>"; };
+		00000000A000000000000098 /* PatchDraftService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDraftService.swift; sourceTree = "<group>"; };
+		00000000A000000000000099 /* PatchDraftCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDraftCoordinator.swift; sourceTree = "<group>"; };
+		00000000A00000000000009A /* FolderPatchSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderPatchSelectionView.swift; sourceTree = "<group>"; };
+		00000000A00000000000009B /* LimitedCleanerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedCleanerService.swift; sourceTree = "<group>"; };
+		00000000A00000000000009C /* CleanerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerView.swift; sourceTree = "<group>"; };
+		00000000A00000000000009D /* CleanerCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerCatalog.swift; sourceTree = "<group>"; };
+		00000000A00000000000009E /* wallpaper_zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wallpaper_zip.c; sourceTree = "<group>"; };
+		00000000A00000000000009F /* wallpaper_zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wallpaper_zip.h; sourceTree = "<group>"; };
+		00000000A0000000000000A0 /* WallpaperLabModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabModels.swift; sourceTree = "<group>"; };
+		00000000A0000000000000A1 /* SecureZIPArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureZIPArchive.swift; sourceTree = "<group>"; };
+		00000000A0000000000000A2 /* WallpaperInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperInstaller.swift; sourceTree = "<group>"; };
+		00000000A0000000000000A3 /* WallpaperLabService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabService.swift; sourceTree = "<group>"; };
+		00000000A0000000000000A4 /* WallpaperLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabView.swift; sourceTree = "<group>"; };
+		00000000A0000000000000A5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		00000000A0000000000000A6 /* ZIPArchiveWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPArchiveWriter.swift; sourceTree = "<group>"; };
+		00000000A0000000000000A7 /* FileOperationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOperationCoordinator.swift; sourceTree = "<group>"; };
+		00000000A0000000000000A8 /* ZIPArchiveExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPArchiveExtractor.swift; sourceTree = "<group>"; };
+		00000000A0000000000000A9 /* PatchWorkspaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchWorkspaceService.swift; sourceTree = "<group>"; };
+		00000000A0000000000000AA /* AppTabNavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigationState.swift; sourceTree = "<group>"; };
+		00000000A0000000000000AB /* FilesTabControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTabControls.swift; sourceTree = "<group>"; };
+		00000000A0000000000000AC /* FilesTabSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTabSwitcherView.swift; sourceTree = "<group>"; };
+		00000000A0000000000000AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		00000000A0000000000000AE /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+00000000A0000000000000AF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		00000000A0000000000000B0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		00000000A0000000000000B1 /* xTop1 External File (6).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (6).3105"; sourceTree = "<group>"; };
+	00000000A0000000000000B2 /* xTop1 External File (7).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (7).3105"; sourceTree = "<group>"; };
+		00000000A0000000000000B3 /* xTop1 External File (9).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (9).3105"; sourceTree = "<group>"; };
+		00000000A0000000000000B4 /* xTop1 External File (10).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (10).3105"; sourceTree = "<group>"; };
+		00000000A0000000000000B5 /* xTop1 External File (1).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (1).3105"; sourceTree = "<group>"; };
+					00000000A0000000000000B6 /* xTop1 External File (3).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (3).3105"; sourceTree = "<group>"; };
+			00000000A0000000000000B7 /* xTop1 External File (5).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (5).3105"; sourceTree = "<group>"; };
+			00000000A0000000000000B8 /* xTop1 External File (12).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (12).3105"; sourceTree = "<group>"; };
+			00000000A0000000000000B9 /* xTop1 External File (8).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (8).3105"; sourceTree = "<group>"; };
+			00000000A0000000000000BA /* xTop1 External File (11).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (11).3105"; sourceTree = "<group>"; };
+			00000000A0000000000000BB /* xTop1 External File (4).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (4).3105"; sourceTree = "<group>"; };
+			00000000A0000000000000BC /* xTop1 External File (2).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (2).3105"; sourceTree = "<group>"; };
+
+		00000000A0000000000000BD /* xTop1 External File (13).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (13).3105"; sourceTree = "<group>"; };
+
+			00000000A0000000000000BE /* xTop1 External File (14).3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/xTop1 External File (14).3105"; sourceTree = "<group>"; };
+			00000000A0000000000000BF /* FFTH.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/FFTH.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000C0 /* ATHBODY.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/ATHBODY.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000C1 /* ATHDRAG.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/ATHDRAG.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000C2 /* ATHMAGIC.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/ATHMAGIC.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000C3 /* ATHBODYM.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/ATHBODYM.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000C4 /* ATHDRAGM.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/ATHDRAGM.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000C5 /* ATHMAGICM.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/ATHMAGICM.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000C6 /* ATHBODYFFTH.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/ATHBODYFFTH.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000C7 /* ATHHEADFFTH.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/ATHHEADFFTH.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000C8 /* ATHANTENA-DRAG.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/ATHANTENA-DRAG.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000C9 /* BODYFFM.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/BODYFFM.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000CA /* DRAGFFM.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/DRAGFFM.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000CB /* DRAGANTENAFFM.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/DRAGANTENAFFM.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000CC /* BODYFF.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/BODYFF.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000CD /* DRAGFF.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/DRAGFF.3105"; sourceTree = "<group>"; };
+			00000000A0000000000000CE /* DRAGANTENAFF.3105 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThreeOneOSFive/Patches/DRAGANTENAFF.3105"; sourceTree = "<group>"; };
+
+			00000000A0000000000000CF /* APONLicenseSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APONLicenseSDK.swift; sourceTree = "<group>"; };
+
+		00000000A0000000000000F0 /* worse_query.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = worse_query.h; sourceTree = "<group>"; };
+		00000000A0000000000000F1 /* worse_query.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = worse_query.m; sourceTree = "<group>"; };
+		00000000A0000000000000F2 /* FFWorseQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFWorseQuery.h; sourceTree = "<group>"; };
+		00000000A0000000000000F3 /* FFWorseQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFWorseQuery.m; sourceTree = "<group>"; };
+		00000000A0000000000000F4 /* FFWorseQueryPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFWorseQueryPolicy.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00000000A0000000000000D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00000000A0000000000000E2 = {
+			isa = PBXGroup;
+			children = (
+				00000000A0000000000000D1 /* ThreeOneOSFive */,
+				00000000A0000000000000D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00000000A0000000000000D1 /* ThreeOneOSFive */ = {
+			isa = PBXGroup;
+			children = (
+				00000000A00000000000006C /* ThreeOneOSFive-Bridging-Header.h */,
+				00000000A00000000000006D /* Info.plist */,
+				00000000A000000000000060 /* App.swift */,
+				00000000A000000000000061 /* ContentView.swift */,
+				00000000A0000000000000D3 /* exploit */,
+				00000000A0000000000000D4 /* views */,
+				00000000A0000000000000D5 /* helpers */,
+				00000000A0000000000000D6 /* kexploit */,
+				00000000A0000000000000F5 /* vendor */,
+				00000000A0000000000000DB /* Localizable.strings */,
+				00000000A000000000000069 /* Assets.xcassets */,
+			);
+			path = ThreeOneOSFive;
+			sourceTree = "<group>";
+		};
+
+		00000000A0000000000000F6 /* worse_query */ = {
+			isa = PBXGroup;
+			children = (
+				00000000A0000000000000F0 /* worse_query.h */,
+				00000000A0000000000000F1 /* worse_query.m */,
+			);
+			path = worse_query;
+			sourceTree = "<group>";
+		};
+		00000000A0000000000000F5 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				00000000A0000000000000F6 /* worse_query */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		00000000A0000000000000D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00000000A00000000000005F /* 3105.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00000000A0000000000000D3 /* exploit */ = {
+			isa = PBXGroup;
+			children = (
+				00000000A000000000000067 /* bad_query.c */,
+				00000000A00000000000006A /* bad_query.h */,
+				00000000A000000000000068 /* mcm_bridge.m */,
+				00000000A00000000000006B /* mcm_bridge.h */,
+				00000000A00000000000009E /* wallpaper_zip.c */,
+				00000000A00000000000009F /* wallpaper_zip.h */,
+			);
+			path = exploit;
+			sourceTree = "<group>";
+		};
+		00000000A0000000000000D4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				00000000A00000000000007C /* DesignSystem.swift */,
+				00000000A000000000000062 /* SettingsView.swift */,
+				00000000A000000000000063 /* LogView.swift */,
+				00000000A00000000000007F /* AppDataBrowserView.swift */,
+				00000000A00000000000008B /* FileBrowserView.swift */,
+				00000000A0000000000000AB /* FilesTabControls.swift */,
+				00000000A0000000000000AC /* FilesTabSwitcherView.swift */,
+				00000000A000000000000096 /* PatchProjectsView.swift */,
+				00000000A000000000000097 /* PatchProjectEditorView.swift */,
+				00000000A00000000000009A /* FolderPatchSelectionView.swift */,
+				00000000A00000000000009C /* CleanerView.swift */,
+				00000000A0000000000000A4 /* WallpaperLabView.swift */,
+				00000000A0000000000000A5 /* OnboardingView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		00000000A0000000000000D5 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				00000000A00000000000007D /* Localization.swift */,
+				00000000A00000000000007E /* ContainerStore.swift */,
+				00000000A000000000000087 /* ContainerIdentityResolver.swift */,
+				00000000A000000000000088 /* ContainerBrowserLogic.swift */,
+				00000000A000000000000089 /* FileReplacementService.swift */,
+				00000000A00000000000008A /* FileManagerService.swift */,
+				00000000A0000000000000A6 /* ZIPArchiveWriter.swift */,
+				00000000A0000000000000A8 /* ZIPArchiveExtractor.swift */,
+				00000000A0000000000000A7 /* FileOperationCoordinator.swift */,
+				00000000A00000000000008C /* SupportPolicy.swift */,
+				00000000A00000000000008F /* PatchProjectModels.swift */,
+				00000000A000000000000090 /* PatchPackageCodec.swift */,
+				00000000A000000000000091 /* PatchKeyStore.swift */,
+				00000000A000000000000092 /* PatchTransaction.swift */,
+				00000000A000000000000093 /* DevicePatchService.swift */,
+				00000000A000000000000094 /* PatchProjectLibrary.swift */,
+				00000000A000000000000095 /* PatchProjectStore.swift */,
+				00000000A0000000000000A9 /* PatchWorkspaceService.swift */,
+				00000000A0000000000000AA /* AppTabNavigationState.swift */,
+				00000000A000000000000098 /* PatchDraftService.swift */,
+				00000000A000000000000099 /* PatchDraftCoordinator.swift */,
+				00000000A00000000000009B /* LimitedCleanerService.swift */,
+				00000000A00000000000009D /* CleanerCatalog.swift */,
+				00000000A0000000000000A0 /* WallpaperLabModels.swift */,
+				00000000A0000000000000A1 /* SecureZIPArchive.swift */,
+				00000000A0000000000000A2 /* WallpaperInstaller.swift */,
+					00000000A0000000000000A3 /* WallpaperLabService.swift */,
+					00000000A00000000000008D /* LicenseManager.swift */,
+					00000000A00000000000008E /* LicenseActivationView.swift */,
+					00000000A0000000000000CF /* APONLicenseSDK.swift */,
+					00000000A000000000000080 /* AppIconHelper.m */,
+				00000000A000000000000081 /* AppIconHelper.h */,
+				00000000A000000000000082 /* KernelExploit.swift */,
+				00000000A0000000000000F2 /* FFWorseQuery.h */,
+				00000000A0000000000000F3 /* FFWorseQuery.m */,
+				00000000A0000000000000F4 /* FFWorseQueryPolicy.h */,
+				00000000A000000000000083 /* AntiDetection.m */,
+				00000000A000000000000084 /* DisplayIdentity.h */,
+				00000000A000000000000085 /* DisplayIdentity.m */,
+				00000000A000000000000086 /* DisplayIdentityAttribution.swift */,
+				00000000A000000000000064 /* Utils.swift */,
+				00000000A000000000000065 /* SBX.swift */,
+				00000000A000000000000066 /* MG.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		00000000A0000000000000D6 /* kexploit */ = {
+			isa = PBXGroup;
+			children = (
+				00000000A00000000000006E /* kexploit_opa334.m */,
+				00000000A000000000000074 /* kexploit_opa334.h */,
+				00000000A00000000000006F /* offsets.m */,
+				00000000A000000000000075 /* offsets.h */,
+				00000000A000000000000070 /* krw.m */,
+				00000000A000000000000076 /* krw.h */,
+				00000000A000000000000071 /* kutils.m */,
+				00000000A000000000000077 /* kutils.h */,
+				00000000A000000000000072 /* vnode.m */,
+				00000000A000000000000078 /* vnode.h */,
+				00000000A000000000000073 /* sandbox_escape.m */,
+				00000000A000000000000079 /* sandbox_escape.h */,
+				00000000A00000000000007A /* machine_info.h */,
+				00000000A00000000000007B /* xpaci.h */,
+			);
+			path = kexploit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00000000A0000000000000D7 /* 3105 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000A0000000000000E0;
+			buildPhases = (
+				00000000A0000000000000DA /* Sources */,
+				00000000A0000000000000D0 /* Frameworks */,
+				00000000A0000000000000D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3105;
+			productName = 3105;
+			productReference = 00000000A00000000000005F;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00000000A0000000000000D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 00000000A0000000000000E1;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				vi,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = 00000000A0000000000000E2;
+			productRefGroup = 00000000A0000000000000D2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00000000A0000000000000D7,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000A0000000000000D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000A00000000000003F,
+				00000000A00000000000003C,
+				00000000A000000000000040,
+				00000000A000000000000041,
+					00000000A000000000000042,
+					00000000A000000000000043,
+					00000000A000000000000044,
+					00000000A000000000000045,
+				00000000A000000000000046,
+				00000000A000000000000047,
+				00000000A000000000000048,
+				00000000A000000000000049,
+				00000000A00000000000004A,
+				00000000A00000000000004B,
+				00000000A00000000000004C,
+					00000000A00000000000004D,
+					00000000A00000000000004E,
+				00000000A00000000000004F,
+				00000000A000000000000050,
+				00000000A000000000000051,
+				00000000A000000000000052,
+				00000000A000000000000053,
+				00000000A000000000000054,
+				00000000A000000000000055,
+				00000000A000000000000056,
+				00000000A000000000000057,
+				00000000A000000000000058,
+				00000000A000000000000059,
+				00000000A00000000000005A,
+				00000000A00000000000005B,
+				00000000A00000000000005C,
+				00000000A00000000000005D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00000000A0000000000000DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000A000000000000001, 00000000A000000000000002, 00000000A000000000000003, 00000000A000000000000004,
+				00000000A000000000000005, 00000000A000000000000006, 00000000A000000000000007, 00000000A000000000000008,
+				00000000A000000000000009, 00000000A00000000000000A, 00000000A00000000000000B, 00000000A00000000000000C, 00000000A00000000000000D,
+				00000000A00000000000000E, 00000000A00000000000000F,
+				00000000A000000000000010,
+				00000000A000000000000011,
+				00000000A00000000000003A,
+				00000000A00000000000003B,
+				00000000A000000000000012,
+				00000000A000000000000017,
+				00000000A000000000000018,
+				00000000A000000000000019,
+				00000000A00000000000001A,
+				00000000A000000000000013,
+				00000000A000000000000014,
+				00000000A000000000000015,
+				00000000A000000000000016,
+				00000000A00000000000001B,
+					00000000A00000000000001C,
+					00000000A00000000000003D,
+					00000000A00000000000003E,
+					00000000A00000000000001D,
+				00000000A00000000000001E,
+				00000000A00000000000001F,
+				00000000A000000000000020,
+				00000000A000000000000021,
+				00000000A000000000000022,
+				00000000A000000000000023,
+				00000000A000000000000024,
+				00000000A000000000000025,
+				00000000A000000000000026,
+				00000000A000000000000027,
+				00000000A000000000000028,
+				00000000A000000000000029,
+				00000000A00000000000002A,
+				00000000A00000000000002B,
+				00000000A00000000000002C,
+				00000000A00000000000002D,
+				00000000A00000000000002E,
+				00000000A00000000000002F,
+				00000000A000000000000030,
+				00000000A000000000000031,
+				00000000A000000000000032,
+				00000000A000000000000033,
+				00000000A000000000000034,
+				00000000A000000000000035,
+				00000000A000000000000036,
+				00000000A00000000000005E,
+				00000000A000000000000037,
+				00000000A0000000000000F7,
+				00000000A0000000000000F8,
+				00000000A000000000000038,
+				00000000A000000000000039,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00000000A0000000000000DB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00000000A0000000000000AD /* en */,
+				00000000A0000000000000AE /* vi */,
+				00000000A0000000000000AF /* es */,
+				00000000A0000000000000B0 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00000000A0000000000000DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThreeOneOSFive/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ATH EXTERNAL";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.mobile.MobileHouseArrest";
+				PRODUCT_NAME = ATHEXTERNAL;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ThreeOneOSFive/ThreeOneOSFive-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00000000A0000000000000DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThreeOneOSFive/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ATH EXTERNAL";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.mobile.MobileHouseArrest";
+				PRODUCT_NAME = ATHEXTERNAL;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ThreeOneOSFive/ThreeOneOSFive-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00000000A0000000000000DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00000000A0000000000000DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000A0000000000000E0 /* Build configuration list for PBXNativeTarget "3105" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000A0000000000000DC /* Debug */,
+				00000000A0000000000000DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000A0000000000000E1 /* Build configuration list for PBXProject "ThreeOneOSFive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000A0000000000000DE /* Debug */,
+				00000000A0000000000000DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00000000A0000000000000D8;
+}
